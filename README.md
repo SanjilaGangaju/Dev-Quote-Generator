@@ -36,10 +36,11 @@ You can view the live demo of the project here: [Demo Link](#)
 
 1. Clone the repository to your local machine:
    ```bash
-      https://github.com/SanjilaGangaju/Dev-Quote-Generator.git
+   git clone https://github.com/SanjilaGangaju/Dev-Quote-Generator.git
 Navigate into the project directory:
 
-```bash
+bash
+Copy code
 cd quote-generator
 Open the index.html file in your browser to view the app.
 
@@ -64,4 +65,3 @@ Feel free to fork the repository and make changes or improvements. If you'd like
 
 License
 This project is open-source and available under the MIT License.
-
