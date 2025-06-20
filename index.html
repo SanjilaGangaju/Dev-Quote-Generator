@@ -8,20 +8,42 @@
   </head>
   <body>
     <div class="container">
+      <div
+        id="toast"
+        style="
+          position: fixed;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: #333;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 5px;
+          opacity: 0;
+          transition: opacity 0.5s ease;
+          pointer-events: none;
+          z-index: 999;
+        "
+      >
+        Copied to clipboard
+      </div>
       <h2>Dev Bites For TechGeeks</h2>
       <div class="quote-card">
-      
         <div class="quote-content">
-          <p id="quote-text">Coding is the new vibe if u can code you can earn</p>
+          <p id="quote-text">
+            Coding is the new vibe if u can code you can earn
+          </p>
           <cite id="author">Sanjila</cite>
         </div>
-      
-      <div class="buttons">
-        <button aria-label="generate a new developer quote" class="generate">Grab a bite!</button>
-        <button aria-label="copy the qoute to clipboard" class="generate">click to copy!</button>
 
-      </div>
-
+        <div class="buttons">
+          <button aria-label="generate a new developer quote" class="generate">
+            Grab a bite!
+          </button>
+          <button aria-label="copy the qoute to clipboard" class="copy">
+            click to copy!
+          </button>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>

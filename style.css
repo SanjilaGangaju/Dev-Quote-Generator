@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 20px 30px;
+  padding: 30px 30px;
   border-radius: 10px;
   border: none;
   outline: none;
@@ -28,7 +28,7 @@ body {
 .container h2 {
   font-family: "Press Start 2P", system-ui;
   text-align: center;
-  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  font-size: clamp(1.1rem, 1vw, 1.5rem);
   line-height: 1.5;
   word-break: break-word;
 
@@ -43,19 +43,19 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 50px;
 }
 blockquote {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: ;
+  
 }
 .quote-content {
   border: 1px solid rgb(217, 217, 234);
   border-radius: 4px;
-  max-width: 100%;
   padding: 10px 20px;
+
   font-family: Poppins;
   font-size: 0.9rem;
   text-align: center;
