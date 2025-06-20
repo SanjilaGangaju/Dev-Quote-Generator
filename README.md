@@ -37,30 +37,29 @@ You can view the live demo of the project here: [Demo Link](#)
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/SanjilaGangaju/Dev-Quote-Generator.git
-Navigate into the project directory:
-
-bash
+2. Navigate into the project directory:
 Copy code
-cd quote-generator
-Open the index.html file in your browser to view the app.
+```bash
+  cd quote-generator
+3. Open the index.html file in your browser to view the app.
 
-Usage
-Click the "Generate" button to display a new quote.
+## Usage
+- Click the "Generate" button to display a new quote.
+- Press the spacebar on your keyboard to generate a new quote.
+- Click the "Copy" button to copy the quote and author to your clipboard.
 
-Press the spacebar on your keyboard to generate a new quote.
+## Future Improvements
+- **Quote Categories:** Add categories of quotes such as motivation, humor, etc.
 
-Click the "Copy" button to copy the quote and author to your clipboard.
+- **Save Favorite Quotes:** Allow users to save their favorite quotes using local storage or session storage.
 
-Future Improvements
-Quote Categories: Add categories of quotes such as motivation, humor, etc.
+- **Dark/Light Mode:** Implement a theme toggle for users to switch between light and dark modes.
 
-Save Favorite Quotes: Allow users to save their favorite quotes using local storage or session storage.
+- **Social Sharing:** Add options for users to share the quote on social media platforms like Twitter or Facebook.
 
-Dark/Light Mode: Implement a theme toggle for users to switch between light and dark modes.
+- **Integration of WebAPI:** Integrate APIs for generating vast numbers of quotes.
 
-Social Sharing: Add options for users to share the quote on social media platforms like Twitter or Facebook.
-
-Contributions
+## Contributions
 Feel free to fork the repository and make changes or improvements. If you'd like to contribute, open an issue or a pull request.
 
 License
