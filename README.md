@@ -39,8 +39,7 @@ You can view the live demo of the project here: [Demo Link](#)
       https://github.com/SanjilaGangaju/Dev-Quote-Generator.git
 Navigate into the project directory:
 
-bash
-Copy code
+```bash
 cd quote-generator
 Open the index.html file in your browser to view the app.
 
