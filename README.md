@@ -41,7 +41,7 @@ You can view the live demo of the project here: [Demo Link](#)
 2. Navigate into the project directory:
 Copy code
 ```
-  cd quote-generator
+cd quote-generator
 ```
 3. Open the index.html file in your browser to view the app.
 
