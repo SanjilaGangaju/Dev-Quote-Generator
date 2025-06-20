@@ -36,7 +36,7 @@ You can view the live demo of the project here: [Demo Link](#)
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/quote-generator.git
+      https://github.com/SanjilaGangaju/Dev-Quote-Generator.git
 Navigate into the project directory:
 
 bash
