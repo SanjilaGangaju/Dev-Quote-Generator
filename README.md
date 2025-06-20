@@ -19,7 +19,7 @@ This is a simple **Quote Generator** app built with **HTML**, **CSS**, and **Jav
 ## Demo
 
 You can view the live demo of the project here: [Demo Link](#)  
-*(Link your deployed version here)*
+*(https://sanjilagangaju.github.io/Dev-Quote-Generator/)*
 
 ## How It Works
 
@@ -64,6 +64,6 @@ Copy code
 ## Contributions
 Feel free to fork the repository and make changes or improvements. If you'd like to contribute, open an issue or a pull request.
 
-License
+## License
 This project is open-source and available under the MIT License.
-fix this readme and regenerate
+
