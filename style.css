@@ -1,72 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Satisfy&display=swap');
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(232, 238, 242);
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Satisfy&display=swap");
+body {
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(232, 238, 242);
+  font-size: 16px;
 }
-.container{
-   background-color: rgb(249, 246, 246);
-    display: flex;
-    height: 50vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20% auto;
-    padding: 10px 40px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-}
-.container h2{
-    font-family: 'Press Start 2P', system-ui;
-    text-align: center;
-    font-size: 1.1rem;
-    line-height: 1.5;
 
-    color:rgb(74, 74, 213)
-    
+.container {
+  background-color: rgb(249, 246, 246);
+  display: flex;
+  width: 90%;
+  max-width: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.container h2 {
+  font-family: "Press Start 2P", system-ui;
+  text-align: center;
+  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  line-height: 1.5;
+  word-break: break-word;
+
+  color: rgb(74, 74, 213);
 }
 /* .container:hover{
    
     border: 1px solid rgb(182, 182, 200);
 } */
-.quote-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 20px;
-    
+.quote-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
-.quote-content{
-    border: 1px solid rgb(217, 217, 234);
-    border-radius: 4px;
-    width: 60vh;
-    padding: 5px 50px;
-    font-family: Poppins;
-    font-size: 0.9rem;
+blockquote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: ;
 }
-.quote-content #author{
-    padding-left: 50vh;
-    
+.quote-content {
+  border: 1px solid rgb(217, 217, 234);
+  border-radius: 4px;
+  max-width: 100%;
+  padding: 10px 20px;
+  font-family: Poppins;
+  font-size: 0.9rem;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  animation: fadeIn 0.5s ease-in-out;
 }
-.quote-card button{
-    background-color: rgb(236, 236, 247);
-    font-family: 'Press Start 2P', system-ui;
-    color:blue;
-    font-size: 0.5rem;
-    padding: 10px;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: ease-in 2s;
-}    
-.quote-card button:active{
-     border: 2px solid blue;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.quote-content #author {
+  text-align: right;
+  display: block;
+  width: 100%;
+  font-style: italic;
+}
+.quote-card button {
+  background-color: rgb(236, 236, 247);
+  font-family: "Press Start 2P", system-ui;
+  color: blue;
+  max-width: 300px;
+  font-size: clamp(0.7rem, 1vw, 1rem);
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background-color: #dfe6ff;
+  color: #000;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+#quote-text {
+  position: relative;
+}
+#quote-text::before {
+  content: open-quote;
+  font-size: 2.4rem;
+  position: relative;
+  top: 5px;
+  font-family: "Great Vibes", cursive;
+
+  margin-right: 5px;
+}
+#quote-text::after {
+  content: close-quote;
+  font-size: 2.4rem;
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
+  font-family: "Great Vibes", cursive;
+}
+
+
+
+@media (max-width: 320px) {
+  .container {
+    padding: 10px 15px;
+  }
+  .quote-content {
+    font-size: 0.7rem;
+    padding: 8px 12px;
+    word-wrap: break-word;
+  }
+
+  .quote-card button {
+    font-size: 0.65rem;
+    padding: 8px 10px;
+    width: 100%; /* Ensures the button fits */
+  }
+
+  .container h2 {
+    font-size: clamp(0.8rem, 4vw, 1rem);
+  }
 }
